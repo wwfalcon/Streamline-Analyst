@@ -13,7 +13,7 @@ with open(config_path, 'r') as file:
 model4_name = config["model4_name"]
 model3_name = config["model3_name"]
 api_key = config["openai_api_key"]
-openai_api_base = config["openai_api_base"]
+openai_api_base = "https://api.aiproxy.io"
 
 def decide_encode_type(attributes, data_frame_head, model_type = 4, user_api_key = None):
     """
