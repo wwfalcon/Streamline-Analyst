@@ -13,3 +13,4 @@ introduction_template2: |
   1. **Select** your data file
   2. **Choose** an analysis mode
   3. **Press** the Start button
+openai_api_base: "https://api.aiproxy.io"
